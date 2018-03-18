@@ -1,0 +1,68 @@
+body{
+  background-color:#882D60;
+  color: #CC87AE;
+  font-family: 'Bitter';
+}
+
+p{
+  color: #440026;
+  font-size: 2.500em;
+}
+
+#header {margin: auto;
+  display:block;
+  border-radius:50%;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+}
+
+#header:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+
+.quote {
+  width: 33%;
+  margin: 3% auto;
+  padding: 2.500%;
+  background-color: #661141;
+}
+
+
+.currentQuote{
+  font-size: 1.750em;
+}
+
+button {
+   font-family: 'Kavoon';
+}
+
+.btn-custom {
+  background-color: hsl(330, 100%, 22%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a30051", endColorstr="#700038");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#a30051), to(#700038));
+  background-image: -moz-linear-gradient(top, #a30051, #700038);
+  background-image: -ms-linear-gradient(top, #a30051, #700038);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a30051), color-stop(100%, #700038));
+  background-image: -webkit-linear-gradient(top, #a30051, #700038);
+  background-image: -o-linear-gradient(top, #a30051, #700038);
+  background-image: linear-gradient(#a30051, #700038);
+  border-color: #700038 #700038 hsl(330, 100%, 19.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+  -webkit-font-smoothing: antialiased;
+  margin: 2.500%;
+  padding: 2.500%;
+  height: auto;
+}
+
+.btn-custom:hover {
+  border-color: white;
+ 
+}
+
